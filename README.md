@@ -24,9 +24,7 @@ Primary evaluation metric: **RMSE**.
 
 ## Repo contents
 - `FinalModel.ipynb` — full pipeline (features → CV → Optuna → final ensemble → submission)
-- `final_submission_lgbm_improved.csv` — submission output optimized for Market A predictions
-- `submission_new_anton.csv` — submission optimized for market B - F
-- `aey_trading_submission.csv` — final stiched submission.
+- `aey_trading_submission.csv` — main submission output
 
 ## How to run
 1. Place `train.csv` and `test_for_participants.csv` in the project folder.
